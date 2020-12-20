@@ -260,3 +260,49 @@ body::-webkit-scrollbar {
     z-index: -1;
     animation-delay: 2.5s;
 }
+
+.image-section{
+    height: 100vh;
+    width: 100vw;
+    /*border: 2px solid blue;*/
+
+}
+.image-section-container{
+    /*border: 2px solid red;*/
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 10vh;
+    vertical-align: center;
+    position: relative;
+}
+.image-section-container img{
+    animation-delay: 2s;
+    animation-duration: 4s;
+}
+.image-section-container-after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    animation-delay: 2s;
+    animation-duration: 4s;
+}
+.image-section-image-text{
+    vertical-align: center;
+    border: 10px solid white;
+    background-color: #00000099;
+    text-align: center;
+    font-size: 9vh;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left:11%;
+    margin: auto;
+}
