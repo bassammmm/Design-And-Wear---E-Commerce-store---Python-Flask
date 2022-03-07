@@ -1,6 +1,5 @@
 from tailorweb import db,login_manager,app
 from flask_login import UserMixin
-from itsdangerous import TimedJSONWebSignatureSerializer as Serializer #for tokens of id and pass
 
 
 @login_manager.user_loader
